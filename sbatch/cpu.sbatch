@@ -10,4 +10,4 @@
 
 export OMP_NUM_THREADS=1
 
-srun -N 1 -n 8 -c $OMP_NUM_THREADS ../mpi_comm.exe
+srun -N 1 -n 8 -c $OMP_NUM_THREADS ../mpi_comm.exe > output.txt

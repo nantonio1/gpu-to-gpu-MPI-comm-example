@@ -14,4 +14,4 @@ $mode=$1
 export MPICH_GPU_SUPPORT_ENABLED=1
 export OMP_NUM_THREADS=1
 
-srun -N 1 -n 8 -c $OMP_NUM_THREADS --gres=gpu:8 ../selectGPU_X.sh
+srun -N 1 -n 8 -c $OMP_NUM_THREADS --gres=gpu:8 ../selectGPU_X.sh > output.txt
