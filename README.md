@@ -43,6 +43,11 @@ you wish to run this toy code on.
 
 Change into the ```sbatch``` directory. Then enter the following command
 ```
-sbatch job.sbatch
+sbatch gpu.sbatch
 ```
+if you wish to run on the GPUs or
+```
+sbatch cpu.sbatch
+```
+if you wish to run on the CPUs.
 
